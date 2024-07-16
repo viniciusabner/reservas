@@ -1,0 +1,32 @@
+{
+  "name": "movie-flix",
+  "version": "1.0.0",
+  "description": "CRUD completo com Node.js",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "echo \"Não há testes implementados ainda.\""
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "crud",
+    "api"
+  ],
+  "author": "Vinicius Abner",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "express": "^4.19.2",
+    "mongodb": "^3.6.8",
+    "mongoose": "^6.3.0",
+    "supabase": "^1.165.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

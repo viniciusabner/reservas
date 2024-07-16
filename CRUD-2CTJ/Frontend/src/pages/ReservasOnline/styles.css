@@ -1,0 +1,67 @@
+.calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+    flex-direction: column;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .calendar-header button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .calendar-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    height: 100px;
+    position: relative;
+  }
+  
+  .calendar-day.header {
+    font-weight: bold;
+    background-color: #f8f9fa;
+  }
+  
+  .calendar-day.weekend {
+    background-color: #ffebcd;
+  }
+  
+  .calendar-day.empty {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .reservation-details {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }

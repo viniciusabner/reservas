@@ -1,0 +1,7 @@
+.container-adicionar {
+    width: 400px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

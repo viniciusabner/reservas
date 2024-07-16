@@ -1,0 +1,19 @@
+.availability-section {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 20px;
+  margin: 40px 20px;
+}
