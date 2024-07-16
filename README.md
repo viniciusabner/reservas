@@ -1,7 +1,7 @@
-Ferramenta de Reservas e Gestão de Espaços
+# Ferramenta de Reservas e Gestão de Espaços
 Este projeto é uma aplicação web para a gestão de reservas e criação de espaços. Permite aos usuários visualizar, reservar e cancelar reservas de horários disponíveis em diferentes espaços. Além disso, administradores podem criar, editar e excluir espaços e horários disponíveis.
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - React: Biblioteca JavaScript para construção de interfaces de usuário.
 - React Bootstrap: Componentes estilizados para React baseados no framework Bootstrap.
 - Fetch API: API para realizar requisições HTTP.
@@ -9,7 +9,7 @@ Tecnologias Utilizadas
 - CSS: Folhas de estilo para personalização da interface.
 - Supabase: Plataforma backend para gerenciamento de banco de dados.
 
-Funcionalidades
+## Funcionalidades
 - Componente Manage
     Adicionar Espaço: Permite adicionar um novo espaço com capacidade e horários disponíveis.
     Editar Espaço: Permite editar informações dos espaços existentes, incluindo nome, capacidade e horários.
@@ -21,13 +21,13 @@ Funcionalidades
     Reservar Horário: Permite reservar horários disponíveis preenchendo informações como nome, email e telefone.
     Cancelar Reserva: Permite cancelar uma reserva existente, tornando o horário disponível novamente.
 
-Como Executar o Projeto
+## Como Executar o Projeto
 Pré-requisitos
 - Node.js instalado
 - npm (gerenciador de pacotes do Node.js)
 
 
-Passo a Passo
+## Passo a Passo
 
 1. Clone o Repositório
 git clone https://github.com/viniciusabner/reservas
@@ -45,7 +45,7 @@ npm start
 5. Acesse a Aplicação
 Abra seu navegador e acesse http://localhost:5173
 
-Estrutura dos Componentes
+## Estrutura dos Componentes
 Manage Component
 Este componente é responsável pela criação, edição e exclusão de espaços e horários disponíveis.
 
@@ -55,7 +55,7 @@ Este componente permite aos usuários visualizar os espaços disponíveis e faze
 Arquivos CSS
 Os estilos personalizados são definidos nos arquivos .css correspondentes a cada componente.
 
-Controladores (Controllers)
+## Controladores (Controllers)
 
 Criar Espaço
 Adiciona um novo espaço ao banco de dados com os detalhes fornecidos no corpo da requisição.
